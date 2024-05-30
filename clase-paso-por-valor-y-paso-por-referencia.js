@@ -13,7 +13,7 @@ let c = z
  b = 'platzi'
  c = undefined
 
- //Paso por referencia
+ //Paso por referencia  en Arrays
 
  let frutas = ['manzana']
  frutas.push('pera')
