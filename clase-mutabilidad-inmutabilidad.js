@@ -1,4 +1,4 @@
-//tipo de dato Primitivo -Inmutable
+//tipo de dato Primitivo -Inmutable: no cambian su valor 
 
 let numero =23
 numero= numero +10
@@ -8,7 +8,7 @@ let esVerdadero = true
 esVerdadero =false
 console.log(esVerdadero);
 
-//Tipo de datos complejo-Mutable
+//Tipo de datos complejo-Mutable:cambia valor
 
 let usuario = {nombre:'Lulito', edad:15}
 usuario.edad =20;
