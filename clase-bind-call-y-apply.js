@@ -26,4 +26,4 @@ function recuerdo(personaje){
 }
 
 recuerdo.call(caricatura, 'vaca')
-recuerdo.call(caricatura, 'pollito')
+recuerdo.bind(caricatura, 'pollito')
