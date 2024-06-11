@@ -15,3 +15,4 @@ console.log('New song to Add:', newSongToAdd);
 console.log('Update PlayList:', updatePlaylist);
 
 
+//NO muestra exactamente  el mismo initialPlalist ya que estamos hablando de se modifica el array inicial  
