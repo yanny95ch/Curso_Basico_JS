@@ -2,7 +2,7 @@
 
 const  transactions =[
     {id: 1 , description:'Grocery Shippong', amount:-50 },
-    {id: 2 , description:'SAlary Deposit', amount:2000 },
+    {id: 2 , description:'Salary Deposit', amount:2000 },
     {id: 3 , description:'Utility Bill Payment', amount:-100 },
     {id: 4 , description:'Online Purshase', amount:-30 }
 ]
@@ -15,7 +15,7 @@ console.log('Total Balance:', totalBalance);
 //2.Find the Largest Transaction (Income or expense)
 
 const largestTransaction = transactions.reduce((maxTransaction, transaction) => {
-    return Math.abs(transaction.amount) > Math.abs(maxTransaction) ? transaction : maxTransaction
+    return Math.abs(transaction.amount) > Math.abs(maxTransaction.amount) ? transaction : maxTransaction
 }, transactions[0] )
 console.log('Largest Transaction:', largestTransaction);
 
