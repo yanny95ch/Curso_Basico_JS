@@ -28,8 +28,8 @@ function dlisplayWinnerInformation(winner) {
     }
 }
 
-const WinnerByName = findWinnerByName ('FeaAriel')
-const indexWinnerByTicket = findWinnerByTicket('005')
+const WinnerByName = findWinnerByName ('Lulito')
+const indexWinnerByTicket = findWinnerByTicket('078')
 
 dlisplayWinnerInformation(WinnerByName)
 console.log('Index of winner by ticketNumber:', indexWinnerByTicket);
